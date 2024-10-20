@@ -10,10 +10,11 @@
     body {
         text-align: center;
         height: 100px;
+        background-color: #7EBAE8;
     }
     
     header {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 10px;
         text-align: center;
         font-size: 24px;
@@ -51,7 +52,7 @@
    }
 
     footer {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 5px;
     }
 
@@ -74,10 +75,11 @@
     body {
         text-align: center;
         height: 100px;
+        background-color: #7EBAE8;
     }
     
     header {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 10px;
         text-align: center;
         font-size: 32px;
@@ -125,7 +127,7 @@
     }
 
     footer {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 5px;
     }
 
@@ -149,11 +151,11 @@
         text-align: center;
         width: 90vw;
         margin: auto;
-        
+        background-color: #7EBAE8;
     }
     
     header {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 10px;
         text-align: center;
         font-size: 2rem;
@@ -172,7 +174,7 @@
     }
  
     footer {
-        background-color: #0000ff;
+        background-color: #3199E8;
         padding: 5px;
         border-radius: 0px 0px 20px 20px;
     }
@@ -244,6 +246,7 @@
         width: 90vw;
         margin: auto;
         background-color: #7EBAE8;
+        height: 100vh;
     }
     
     header {
