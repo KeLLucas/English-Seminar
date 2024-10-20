@@ -28,6 +28,14 @@
         text-align: justify;
         font-size: 16px;
     }
+
+    table, td, tr { 
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 10px;
+        
+    }
     
     .code {
         width: 100%;
@@ -85,13 +93,35 @@
         font-size: 24px;
     }
 
+    table, td, tr { 
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    }
+
+    .code_table {
+        width: 63%;
+        height: 80vh;
+        border-radius: 10px;
+    }
+
     .code {
         width: 63%;
+        height: 65vw;
         border-radius: 10px;
     }
 
     .ex {
         width: 30%;
+        height: 50vh;
+    }
+
+    .ex_div {
+        width: 70vw;
+        margin-left: 20px;
     }
 
     footer {
@@ -117,43 +147,79 @@
     
     body {
         text-align: center;
-        height: 100px;
+        width: 90vw;
+        margin: auto;
+        
     }
     
     header {
         background-color: #0000ff;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-        font-size: 2rem
+        font-size: 2rem;
+        margin: 10px;
+        border-radius: 20px 20px 0px 0px;
     }
     
     main {
         text-align: center;
     }
 
-    img {
-        width: 50%;
-        border-radius: 5px;
-    }
-
     p {
-        padding: 20px;
+        padding: 10px 25px;
         text-align: justify;
         font-size: 32px;
-    }
-
-    .code {
-        display: inline-block;
-    }
-
-    .ex {
-        display: inline-block;
-        width: 11%;
     }
  
     footer {
         background-color: #0000ff;
         padding: 5px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .ex {
+        height: 50vh;
+    }
+
+    .code {
+        height: 50vh;
+        border-radius: 10px;
+    }
+    
+    div {
+        display: inline-block;
+        margin: 20px 50px 0px 50px;
+    }
+
+    table, td, tr { 
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 30vw;
+    }
+
+    .code_table {
+        height: 55vh;
+    }
+
+    .code_div {
+        width: 40vw;
+        display: inline;
+        border-radius: 10px;
+    }
+    
+    .ex_div {
+        width: 40vw;
+    
+    }
+
+    .code_footer {
+        width: 50vw;
+        height: 40vh;
+        border-radius: 10px;
     }
 
     .botao {
@@ -161,7 +227,7 @@
         padding: 10px;
         border-radius: 50%;
         margin: 20px;
-        width: 9vw;
+        width: 3vw;
     }
 }
 
@@ -175,52 +241,87 @@
     
     body {
         text-align: center;
-        height: 100px;
+        width: 90vw;
+        margin: auto;
+        background-color: #7EBAE8;
     }
     
     header {
-        background-color: #0000ff;
-        padding: 20px;
+        background-color: #3199E8;
+        padding: 10px;
         text-align: center;
-        font-size: 2rem
+        font-size: 2rem;
+        margin: 10px;
+        border-radius: 20px 20px 0px 0px;
     }
     
     main {
         text-align: center;
     }
 
-    img {
-        width: 50%;
-        border-radius: 5px;
-    }
-
     p {
-        padding: 20px;
+        padding: 10px 25px;
         text-align: justify;
         font-size: 32px;
     }
-
-    .code {
-        display: inline-block;
-        width: 10%;
+ 
+    footer {
+        background-color: #3199E8;
+        padding: 5px;
+        border-radius: 0px 0px 20px 20px;
     }
 
     .ex {
-        display: inline-block;
-        width: 11%;
+        height: 50vh;
     }
- 
-    footer {
-        background-color: #0000ff;
-        padding: 5px;
+
+    .code {
+        height: 50vh;
+        
+    }
+    
+    div {
+        display: inline-block;
+        margin: 20px 50px 0px 50px;
+    }
+
+    table, td, tr { 
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 30vw;
+    }
+
+    .code_table {
+        height: 55vh;
+        border-radius: 10px;
+    }
+
+    .code_div {
+        width: 40vw;
+        display: inline;
+        border-radius: 10px;
+    }
+    
+    .ex_div {
+        width: 40vw;
+    
+    }
+
+    .code_footer {
+        width: 40vw;
+        height: 50vh;
+        border-radius: 10px;
     }
 
     .botao {
         background-color: chocolate;
-        padding: 10px 100px;
-        border-radius: 10px;
+        padding: 10px;
+        border-radius: 50%;
         margin: 20px;
-        margin: px;
         width: 3vw;
     }
 }
