@@ -1,17 +1,30 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'chakra';
+    src: url(../fonts/ChakraPetch-Regular.ttf) format(truetype);
+}
+
+:root {
+    --azul-claro: #7EBAE8;
+    --azul: #3199E8;
+    --laranja: chocolate;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "chakra";
+}
+
 @media (max-width: 480px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif
-    }
-    
+   
     body {
         text-align: center;
         height: 100px;
         background-color: #7EBAE8;
         height: 100vh;
+        
     }
     
     header {
@@ -19,6 +32,7 @@
         padding: 10px;
         text-align: center;
         font-size: 24px;
+        box-shadow: 0px 3px 3px black;
     }
     
     main {
@@ -28,7 +42,7 @@
     p {
         padding: 20px;
         text-align: justify;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     table, td, tr { 
@@ -41,7 +55,6 @@
     
     .code {
         width: 100%;
-        
     }
 
    .ex {
@@ -55,6 +68,7 @@
     footer {
         background-color: #3199E8;
         padding: 5px;
+        box-shadow: 0px 3px 3px black;
     }
 
     .botao {
@@ -63,15 +77,11 @@
         border-radius: 50%;
         margin: 20px;
         width: 9vw;
+        box-shadow: 3px 3px 3px black;
     }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif
-    }
     
     body {
         text-align: center;
@@ -85,6 +95,7 @@
         padding: 10px;
         text-align: center;
         font-size: 32px;
+        box-shadow: 3px 3px 3px black;
     }
     
     main {
@@ -131,6 +142,7 @@
     footer {
         background-color: #3199E8;
         padding: 5px;
+        box-shadow: 3px 3px 3px black;
     }
 
     .botao {
@@ -139,15 +151,11 @@
         border-radius: 50%;
         margin: 11px;
         width: 9vw;
+        box-shadow: 3px 3px 3px black;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1279px) {
-     * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif
-    }
     
     body {
         text-align: center;
@@ -164,6 +172,7 @@
         font-size: 2rem;
         margin: 10px;
         border-radius: 20px 20px 0px 0px;
+        box-shadow: 3px 3px 3px black;
     }
     
     main {
@@ -180,6 +189,7 @@
         background-color: #3199E8;
         padding: 5px;
         border-radius: 0px 0px 20px 20px;
+        box-shadow: 3px 3px 3px black;
     }
 
     .ex {
@@ -233,16 +243,12 @@
         border-radius: 50%;
         margin: 20px;
         width: 3vw;
+        box-shadow: 3px 3px 3px black;
     }
 }
 
 
 @media (min-width: 1279px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif
-    }
     
     body {
         text-align: center;
@@ -250,6 +256,7 @@
         margin: auto;
         background-color: #7EBAE8;
         height: 100vh;
+        
     }
     
     header {
@@ -259,6 +266,7 @@
         font-size: 2rem;
         margin: 10px;
         border-radius: 20px 20px 0px 0px;
+        box-shadow: 3px 3px 3px black;
     }
     
     main {
@@ -275,6 +283,7 @@
         background-color: #3199E8;
         padding: 5px;
         border-radius: 0px 0px 20px 20px;
+        box-shadow: 3px 3px 3px black;
     }
 
     .ex {
@@ -329,6 +338,7 @@
         border-radius: 50%;
         margin: 20px;
         width: 3vw;
+        box-shadow: 3px 3px 3px black;
     }
 }
 
