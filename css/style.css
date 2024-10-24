@@ -84,6 +84,10 @@ cursor: pointer;
         border-radius: 5px;
     }
 
+    .codeI {
+        width: 100vw;
+    }
+
    .ex {
         width: 50%;
    }
@@ -186,6 +190,11 @@ cursor: pointer;
 
     .codeH {
         width: 59vw;
+        border-radius: 5px;
+    }
+
+    .codeI {
+        width: 95vw;
         border-radius: 5px;
     }
 
@@ -306,8 +315,12 @@ cursor: pointer;
     }
 
     .codeD {
-        display: ;
         width: 40vw;
+        border-radius: 10px;
+    }
+
+    .codeI {
+        width: 70vw;
         border-radius: 10px;
     }
 
@@ -401,7 +414,14 @@ cursor: pointer;
 
     .code {
         height: 50vh;
+        border-radius: 10px;
         
+    }
+
+    .codeI {
+        width: 70vw;
+        border-radius: 10px;
+        margin: 20px;
     }
     
     div {
@@ -417,6 +437,10 @@ cursor: pointer;
         margin-top: 30px;
         margin-bottom: 30px;
         width: 30vw;
+    }
+    
+    table {
+        width: 70vw;
     }
 
     .code_table {
@@ -449,6 +473,26 @@ cursor: pointer;
         box-shadow: 3px 3px 3px black;
         border: none;
         width: 10vw;
+    }
+
+    #div1 {
+        background-image: linear-gradient(to bottom, var(--azul),var(--azul-claro));
+        width: 40vw;
+        height: 100px;
+        margin: auto;
+        border: solid;
+        padding: 5px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #div2 {
+        background-image: linear-gradient(to bottom, var(--azul-claro),var(--azul));
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        padding: 5px;
+        display: block;
     }
 }
 
